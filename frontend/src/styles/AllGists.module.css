@@ -1,0 +1,57 @@
+.allgist-container {
+  display: flex;
+  justify-content: flex-start;
+  height: 7vh;
+  width: 57.5vw;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  left: 35.5%;
+  border-bottom: 1px solid rgb(230, 216, 210);
+}
+.all-gist {
+  position: relative;
+  margin-top: 10px;
+  width: 30vh;
+  height: 3vh;
+  display: flex;
+  justify-content: space-around;
+  left: 3%;
+}
+.yourgist {
+  font-weight: 500;
+  height: 4vh;
+  margin-right: 6px;
+  align-items: center;
+}
+.yourgist:hover {
+  cursor: pointer;
+  font-weight: 500;
+  height: 4vh;
+  margin-right: 6px;
+  align-items: center;
+  border-bottom: 2px solid rgb(76, 108, 250);
+  background-color: rgb(199, 199, 245);
+  border-radius: 5px;
+}
+.yourgist-active {
+  font-weight: 500;
+  height: 4vh;
+  margin-right: 6px;
+  align-items: center;
+  border-bottom: 2px solid rgb(76, 108, 250);
+}
+.yourgist-active:hover {
+  cursor: pointer;
+  font-weight: 500;
+  height: 4vh;
+  margin-right: 6px;
+  align-items: center;
+}
+.nostyle {
+  color: rgb(17, 17, 17);
+  list-style: none;
+  text-decoration: none;
+
+  width: 8.5vw;
+}

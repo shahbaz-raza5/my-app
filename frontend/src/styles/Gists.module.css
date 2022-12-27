@@ -1,0 +1,115 @@
+.list-container {
+  margin-top: 2vh;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color {
+  border-bottom: 0.1px solid rgb(183, 216, 229);
+  background-color: skyblue;
+  color: white;
+  font-weight: bold;
+  font-size: 0.1.1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style: none;
+  width: 85vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10px;
+}
+.link {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.list-user {
+  border-bottom: 0.1px solid rgb(183, 216, 229);
+  width: 85vw;
+  height: 6.6vh;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style: none;
+  text-decoration: none;
+}
+.list-user:hover {
+  cursor: pointer;
+  border-bottom: 0.1px solid rgb(183, 216, 229);
+  background-color: skyblue;
+  color: white;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 85vw;
+  height: 6.6vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+
+.list-user li {
+  list-style: none;
+}
+
+.user-avatar img {
+  border-radius: 50%;
+  width: 3vw;
+  height: 6vh;
+  margin-top: 7px;
+  justify-content: center;
+  align-items: center;
+}
+.user-avatar {
+  width: 12vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+}
+.profile-menu img {
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 80%;
+  margin-top: 3px;
+}
+
+.user-name {
+  width: 12vw;
+}
+
+.user-date {
+  width: 12vw;
+  text-align: center;
+}
+
+.user-time {
+  width: 12vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.user-keyword {
+  width: 12vw;
+  text-align: start;
+}
+
+.user-notebook-name {
+  width: 12vw;
+  text-align: start;
+}
+
+.user-action {
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}

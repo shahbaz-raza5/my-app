@@ -1,0 +1,198 @@
+.your-profile-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.your-gist-card-container {
+  /* position: relative; */
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(97, 199, 110); */
+  width: 65vw;
+  height: 100%;
+}
+.yourgist-profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 35vw;
+  height: 80vh;
+  border: none;
+  border-radius: 5px;
+}
+.profile-image img {
+  width: 22vw;
+  height: 45vh;
+  border-radius: 80%;
+  margin-top: 10px;
+}
+
+.GistCard {
+  width: 60vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vh;
+  /* background-color: blueviolet; */
+  border-left: 1px solid rgb(235, 232, 232);
+  z-index: -1;
+}
+
+.gist-card-body {
+  width: 55vw;
+  height: 40vh;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid rgb(230, 216, 210);
+  box-shadow: 0 0 3px 1px rgb(170, 170, 177);
+}
+.gist-file {
+  width: 55vw;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+  align-items: center;
+  overflow: hidden;
+
+  /* background-color: brown; */
+}
+
+.card-bottom {
+  width: 54.9vw;
+  height: 12vh;
+  display: flex;
+  border-radius: 3px;
+  justify-content: space-between;
+  background-color: rgb(195, 213, 247);
+}
+
+.card-bottom:hover {
+  width: 54.9vw;
+  height: 12vh;
+  display: flex;
+  border-radius: 3px;
+  justify-content: space-between;
+  background-color: rgb(138, 174, 241);
+}
+
+.gist-owner-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.gist-info {
+  width: 20vw;
+  height: 8vh;
+  margin-left: 10px;
+}
+
+.gist-info-name {
+  display: flex;
+  width: 20vw;
+}
+.gist-info h1 {
+  margin-top: 3px;
+
+  height: 3vh;
+  font-size: 0.9rem;
+  margin: 0px;
+  color: rgb(40, 40, 245);
+}
+
+.gist-info h2 {
+  height: 3vh;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 0px;
+  color: rgb(67, 67, 235);
+}
+
+.gist-info p {
+  width: 8vw;
+  height: 2.4vh;
+  font-size: 0.7rem;
+  margin: 0px;
+  color: rgb(77, 75, 75);
+}
+
+.gist-p {
+  font-size: 0.6rem;
+}
+.gist-image img {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 80%;
+  margin-top: 3px;
+}
+.gists-action {
+  width: 15vw;
+  height: 12vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-container {
+  width: 17vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.star {
+  color: blue;
+  width: 3.5vw;
+  height: 3vh;
+}
+
+.fork {
+  color: blue;
+  width: 3.8vw;
+  height: 3vh;
+  margin-left: 10px;
+}
+
+.start-show {
+  width: 2.5vw;
+  height: 3.7vh;
+  border-radius: 3px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+}
+.fork-show {
+  width: 2.5vw;
+  height: 3.7vh;
+  border-radius: 3px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.github-profile-btn {
+  border-radius: 3px;
+  border: 1px solid rgb(223, 215, 215);
+  color: rgb(67, 67, 235);
+  width: 18vw;
+  height: 7vh;
+}
+.link {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.Spinner {
+  position: absolute;
+  left: 50%;
+}

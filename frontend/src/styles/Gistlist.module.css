@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btnCard {
+  width: 2.5vw;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 3px;
+}
+.paginate{
+  /* margin-top: -35px; */
+
+}
+.btnCard:hover {
+  cursor: pointer;
+}
+.row-list {
+  color: rgb(21, 255, 0);
+  width: 2.5vw;
+  border: none;
+}
+
+.row-list:hover {
+  cursor: pointer;
+}
+.Toggle-list-btns {
+  margin-top: 2vh;
+  width: 85vw;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.line {
+  width: 0.1px;
+  height: 25px;
+  border: 0.1px solid rgb(224, 222, 222);
+}

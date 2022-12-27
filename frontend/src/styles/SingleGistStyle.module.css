@@ -1,0 +1,146 @@
+.Single-Gist-Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-gist-page {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  height: 15vh;
+}
+
+.gist-owner-data {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  height: 15vh;
+  margin-top: 4px;
+  box-shadow: 0 0 3px 1px rgb(206, 206, 211);
+  border-radius: 2px;
+}
+
+.owner-data {
+  display: flex;
+  flex-direction: row;
+  width: 22vw;
+  height: 10vh;
+  margin-top: 4vh;
+}
+
+.image img {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 80%;
+  margin-top: 3px;
+}
+.owner-info {
+  display: flex;
+  flex-direction: column;
+  width: 17vw;
+  height: 15vh;
+}
+
+.owner-info h1 {
+  margin: 0px;
+  margin-left: 5px;
+}
+
+.text-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.text {
+  font-size: 0.8rem;
+}
+
+.gists-action {
+  width: 22vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  width: 22vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  width: 4vw;
+  height: 5vh;
+}
+
+.star:hover {
+  cursor: pointer;
+}
+.fork {
+  width: 4vw;
+  height: 5vh;
+  margin-left: 10px;
+}
+
+.fork:hover {
+  cursor: pointer;
+}
+.start-show {
+  width: 2.5vw;
+  height: 3.7vh;
+  border-radius: 3px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+}
+.fork-show {
+  width: 2.5vw;
+  height: 3.7vh;
+  border-radius: 3px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.gist-page {
+  overflow-y: scroll;
+  scroll-margin: 2px;
+  width: 70vw;
+  height: 80vh;
+  margin-top: 12px;
+}
+.gists-action-icon {
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-del {
+  width: 2vw;
+  align-items: center;
+}
+.icon-del:hover {
+  cursor: pointer;
+}
+.gist-success {
+  background-color: rgb(99, 241, 99);
+  color: white;
+  text-align: center;
+}
+
+.icon-edit:hover {
+  cursor: pointer;
+}
+
+.icon-edit {
+  width: 2vw;
+  align-items: center;
+}

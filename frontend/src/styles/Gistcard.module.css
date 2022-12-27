@@ -1,0 +1,97 @@
+.gist-card-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gist-card {
+  width: 85vw;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+.class-gist {
+  background-color: black;
+  max-height: 200px;
+  overflow: hidden;
+}
+.GistCard {
+  width: 25vw;
+  height: 35vh;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gist-card-body {
+  border-radius: 3px;
+  box-shadow: 0 0 3px 1px rgb(170, 170, 177);
+  width: 20vw;
+  height:30vh;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+ 
+}
+
+.gist-card-body:hover {
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 0 0 4px 3px rgb(181, 181, 228);
+  width: 20vw;
+  height:30vh;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.gist-file {
+  width: 20vw;
+  height: 25vh;
+  border: none;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(230, 216, 210);
+}
+
+.card-bottom {
+  width: 18vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+.gist-info {
+  width: 12vw;
+  height: 10vh;
+}
+.gist-info h1 {
+  margin-top: 3px;
+  width: 10vw;
+  height: 4vh;
+  font-size: .9rem;
+  margin: 0px;
+}
+
+.gist-info p {
+  width: 8vw;
+  height: 2.4vh;
+  font-size: 0.8rem;
+  margin: 0px;
+}
+.gist-image img {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 80%;
+  margin-top: 3px;
+}

@@ -1,0 +1,146 @@
+.Navbar-container {
+  background-color: rgb(8, 154, 212);
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 3px 2px rgb(67, 67, 252);
+}
+.Navbar {
+  width: 88%;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar li {
+  list-style: none;
+  align-items: center;
+}
+
+.nav-left {
+  width: 35vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-right {
+  align-items: center;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.menu {
+  height: 34vh;
+  width: 11vw;
+  position: absolute;
+  background-color: rgb(248, 245, 241);
+  list-style: none;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  border: none;
+  right: 7%;
+  margin-top: 7px;
+  z-index: 5;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 1px rgb(134, 134, 134);
+}
+
+.menu-item1 span {
+  font-weight: 700;
+}
+.profile-menu img {
+  position: relative;
+  width: 3vw;
+  height: 6.5vh;
+  border-radius: 80%;
+  margin-top: 3px;
+}
+.icon {
+  background: none;
+  position: absolute;
+  margin-top: -16px;
+  z-index: 6;
+  /* background-color: aqua; */
+}
+
+.menu-item1 {
+  margin-left: 14px;
+  color: rgb(17, 17, 17);
+  height: 10vh;
+  width: 8.5vw;
+  border-bottom: 1px solid gray;
+  font-size: 0.8rem;
+  padding-top: 10px;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+}
+.menu-item2 {
+  margin-left: 14px;
+  color: rgb(17, 17, 17);
+  height: 11.5vh;
+  width: 8.5vw;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(64, 241, 203); */
+  border-bottom: 1px solid gray;
+  font-size: 0.8rem;
+  padding-top: 5px;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+}
+.nostyle {
+  color: rgb(17, 17, 17);
+  list-style: none;
+  text-decoration: none;
+
+  width: 8.5vw;
+}
+
+.nostyle:hover {
+  background-color: rgb(0, 68, 255);
+  color: white;
+  width: 8.5vw;
+}
+.menu-item3 {
+  margin-left: 14px;
+  color: rgb(17, 17, 17);
+  height: 6vh;
+  width: 8.5vw;
+  font-size: 0.8rem;
+  padding-top: 10px;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+}
+.menu-item2 Link:hover {
+  background-color: aqua;
+}
+.login {
+  background-color: rgb(52, 52, 223);
+  box-shadow: 0 0 3px 1px rgb(46, 46, 49);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Inter UI", "SF Pro Display";
+  font-size: 16px;
+  font-weight: 500;
+  height: 2rem;
+  padding: 0 1.6rem;
+  text-align: center;
+}
+.app-name {
+  color: aliceblue;
+  text-shadow: 0 1px 2px rgb(32, 32, 32);
+  text-align: center;
+}
